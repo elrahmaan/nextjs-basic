@@ -6,7 +6,7 @@ import styles from '../users/Users.module.css'
 interface UsersProps {
     dataUsers: Array<any>;
 }
-export default function index(props: UsersProps) {
+export default function Users(props: UsersProps) {
     const { dataUsers } = props;
     const router = useRouter();
     return (
